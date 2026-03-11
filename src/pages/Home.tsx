@@ -5,6 +5,7 @@ import { AGENTS, HOME_COPY, PRICING_BASKETS } from '../data/content'
 import { motion } from 'framer-motion'
 
 export default function Home() {
+  console.log('Home page rendered')
   return (
     <main>
       <section className="relative">
